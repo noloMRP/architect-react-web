@@ -1,5 +1,5 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
-
+import '/src/Components/Header/header.css'
 
 
 export default function Header(){
