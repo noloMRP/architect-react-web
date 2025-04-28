@@ -1,0 +1,50 @@
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 2vmin;
+    justify-content: space-between;
+}
+
+.image-container {
+    padding: 0;
+    width: 770px;
+    height: 829px;
+    position: relative;
+}
+.image-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+}
+.page {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: center;
+}
+.page h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    color: #BDBDBD;
+}
+.page h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #333333;
+}
+button {
+    font-family: Roboto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 30px 80px 30px 30px;
+    border: none;
+    background: #fff;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ffffff71;
+    color: rgb(136, 160, 192);
+}

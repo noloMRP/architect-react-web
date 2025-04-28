@@ -1,8 +1,8 @@
-import Header from "./Components/Header"
-import Certifications from "./Components/Pages/Certification"
-import Contacts from "./Components/Pages/Contacts"
-import Main from "./Components/Pages/Main"
-import Projects from "./Components/Pages/Projects"
+import Header from "./Components/Header/Header"
+import Certifications from "./Components/Certifications/Certification"
+import Contacts from "./Components/Contacts/Contacts"
+import Main from "./Components/Landing-Page/Main"
+import Projects from "./Components/Projects/Projects"
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 
 // decide which page to show
