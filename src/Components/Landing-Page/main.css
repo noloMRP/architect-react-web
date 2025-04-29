@@ -3,12 +3,13 @@ section {
     flex-direction: row;
     gap: 2vmin;
     justify-content: space-between;
+    height: 100vh;
 }
 
 .image-container {
     padding: 0;
-    width: 770px;
-    height: 829px;
+    width: auto;
+    height: 100vh;
     position: relative;
 }
 .image-container img {
@@ -23,9 +24,11 @@ section {
     flex-direction: column;
     justify-content: center;
 }
+
+.about-content h1,
 .page h1 {
     font-size: 4rem;
-    font-weight: 400;
+    font-weight: 200;
     color: #BDBDBD;
 }
 .page h2 {
@@ -44,7 +47,56 @@ button {
     letter-spacing: 4px;
     cursor: pointer;
 }
+.about-content a:hover,
 button:hover {
-    background-color: #ffffff71;
+    background-color: #e6e6e671;
     color: rgb(136, 160, 192);
+}
+
+.about-container {
+    display: flex;
+    background: #FBFBFB;
+    padding: 5vmin 10vmin;
+    height: 435px;
+    width: 1170px;
+    gap: 4vmin;
+    
+}
+.about-images {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    padding: 0;
+    
+}
+.about-content p {
+    margin-top: 3vmin;
+    color: #5a5a5a;
+}
+.about-content {
+    flex: 1;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3vmin;
+    
+    
+}
+.about-content a{
+    
+    padding: 20px 20px 20px 20px;
+    border: none;
+    background: #fff;
+    letter-spacing: 4px;
+    cursor: pointer;
+    font-size: 0.65rem;
+    text-decoration: none;
+    color: black;
+    margin-top: 5vmin;
+    margin-left: 2vmin;
+    width: 115px;
+}
+.about-sect {
+    justify-content: center;
+    align-items: center;
 }
