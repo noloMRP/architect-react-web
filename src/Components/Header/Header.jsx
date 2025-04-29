@@ -4,43 +4,37 @@ import "/src/Components/Header/header.css";
 export default function Header() {
   return (
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          Navbar
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <a className="navbar-brand" href="#">
+          <div className="logo-container">
+            <img src="src\images\Icons\logo.svg" alt="logo" />
+          </div>
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                Home <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Features
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Pricing
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">
-                Disabled
-              </a>
-            </li>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <CustomLink to="/main" className="nav-link">
+              Main
+            </CustomLink>
+            <CustomLink to="/projects" className="nav-link">
+              Projects
+            </CustomLink>
+            <CustomLink to="/certifications" className="nav-link">
+              Certifications
+            </CustomLink>
+            <CustomLink to="/contacts" className="nav-link">
+              Contacts
+            </CustomLink>
           </ul>
         </div>
       </nav>
