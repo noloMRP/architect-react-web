@@ -5,13 +5,13 @@ export default function Header() {
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">
+        <CustomLink to="/" className="navbar-brand">
           <div className="logo-container">
-            <img src="src\images\Icons\logo.svg" alt="logo" />
+            <img src="src/images/Icons/logo.svg" alt="logo" />
           </div>
-        </a>
+        </CustomLink>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler hamburger-button"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -26,13 +26,13 @@ export default function Header() {
             <CustomLink to="/main" className="nav-link">
               Main
             </CustomLink>
-            <CustomLink to="/projects" className="nav-link">
+            <CustomLink to="/Projects" className="nav-link">
               Projects
             </CustomLink>
-            <CustomLink to="/certifications" className="nav-link">
+            <CustomLink to="/Certifications" className="nav-link">
               Certifications
             </CustomLink>
-            <CustomLink to="/contacts" className="nav-link">
+            <CustomLink to="/Contacts" className="nav-link">
               Contacts
             </CustomLink>
           </ul>

@@ -18,7 +18,7 @@ export default function Main(){
                 <div className="about-images">
                     <img src="src\images\Landing-Page\about-page1.png" alt="" />
                     <img src="src\images\Landing-Page\about-page2.png" alt="" />
-                    <img src="src\images\Landing-Page\about-page3.png" alt="" />
+                    <img src="src\ima ges\Landing-Page\about-page3.png" alt="" />
                 </div>
                 <div className="about-content">
                     <h1>About Us</h1>
